@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/music-icon.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Web player</title>
+</head>
+<body>
+       <nav class="general-nav">
+        <ul>
+            <li> <a href="#">
+                    <div class="logo-container">
+                        <div id="logo" class="logo"><i class="bi bi-spotify"> </i>&nbsp;&nbsp;<div id="infinity"
+                                class="infinity">Infinity</div>
+                        </div>
+                    </div>
+                </a></li>
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="player.html">player</a></li>
+            <li><a class="nav-link" href="plans.html">Infinity plans</a></li>
+            <li><a class="nav-link" href="contact.html">Contact</a></li>
+            <li>
+                <svg onclick="navChico()" id="small-nav" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </li>
+            <li class="small-link"><a href="index.html">Home</a></li>
+            <li class="small-link"><a href="player.html">Player</a></li>
+            <li class="small-link"><a href="plans.html">Infinity plans</a></li>
+            <li class="small-link"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+<div class="plans-main">
+    <div class="plans-title">Infinity plans</div>
+    <div class="triangle"></div>
+</div>
+<div class="plans-primary-content">
+    <div class="plans-desc">With our plans you can get your Spotify infinity membership for the price you want, we have created four plans, one of them will fit with your lifestyle perfectly.</div>
+    <div class="plan-detail plan1">
+        <div class="detail-title">Ice plan</div>
+        <div class="detail-desc">
+            <div class="detail-spec"></div>
+            <div class="detail-spec"><i class="bi bi-caret-right-fill"></i>Listen to your music at the same time in 2 devices.</div>
+            <div class="detail-spec"><i class="bi bi-caret-right-fill"></i>No ads while listening to music.</div>
+            <div class="detail-spec"><i class="bi bi-caret-right-fill"></i>Posibility to be a beta tester.</div>
+            <div class="detail-spec"></div>
+        </div>
+    </div>
+    <div class="plan-detail plan2">
+        <div class="detail-title">Desert plan</div>
+        <div class="detail-desc">
+            <div class="detail-spec"></div>
+            <div class="detail-spec"><i class="bi bi-caret-right-fill"></i>Listen to your music at the same time in 3 devices.</div>
+            <div class="detail-spec"><i class="bi bi-caret-right-fill"></i>Full conectivity with our global servers.</div>
+            <div class="detail-spec"><i class="bi bi-caret-right-fill"></i>No ads while listening to your favourite music.</div>
+            <div class="detail-spec"><i class="bi bi-caret-right-fill"></i>1 free suscription for your friends.</div>
+            <div class="detail-spec"></div>
+        </div>
+    </div>
+    <div class="plan-detail plan3">
+        <div class="detail-title">Forest plan</div>
+        <div class="detail-desc">
+            <div class="detail-spec"></div>
+            <div class="detail-spec"><i class="bi bi-caret-right-fill"></i>Listen to your music at the same time in 4 devices.</div>
+            <div class="detail-spec"><i class="bi bi-caret-right-fill"></i>Priority with our support team.</div>
+            <div class="detail-spec"><i class="bi bi-caret-right-fill"></i>No ads while listening to your favourite music.</div>
+            <div class="detail-spec"><i class="bi bi-caret-right-fill"></i>2 free suscription for your friends.</div>
+            <div class="detail-spec"></div>
+        </div>
+    </div>
+    <div class="plan-detail plan4">
+        <div class="detail-title">Neon plan</div>
+        <div class="detail-desc">
+            <div class="detail-spec"></div>
+            <div class="detail-spec"><i class="bi bi-caret-right-fill"></i>Listen to your music at the same time in 6 devices.</div>
+            <div class="detail-spec"><i class="bi bi-caret-right-fill"></i>Priority with our support team.</div>
+            <div class="detail-spec"><i class="bi bi-caret-right-fill"></i>Priority to listen your favourite artists new albums.</div>
+            <div class="detail-spec"><i class="bi bi-caret-right-fill"></i>4 free suscription for your friends.</div>
+            <div class="detail-spec"></div>       
+        </div>
+    </div>
+</div>
+
+<div class="plans-comparate">
+    
+    <div class="comparate-title">Different plan comparative</div>
+    <div class="comparate-wrapper">
+        <div class="plan-comparate plan1-comparate">
+            <div class="comparate-plan-title">Ice plan</div>
+            <div class="comparate-plan-text">
+                <div>No ads</div>
+                <div>Maximun 2 devices.</div>
+                <div>No support priority.</div>
+                <div>No extra subscriptions.</div>
+                <div class="buy-btn">Buy</div>
+            </div>
+        </div>
+        <div class="plan-comparate plan2-comparate">
+            <div class="comparate-plan-title">Desert plan</div>
+            <div class="comparate-plan-text">
+                <div>No ads</div>
+                <div>Maximun 3 devices.</div>
+                <div>No support priority.</div>
+                <div>1 extra subscriptions.</div>
+                <div class="buy-btn">Buy</div>
+            </div>
+        </div>
+        <div class="plan-comparate plan3-comparate">
+            <div class="comparate-plan-title">Forest plan</div>
+            <div class="comparate-plan-text">
+                <div>No ads</div>
+                <div>Maximun 4 devices.</div>
+                <div>Support priority.</div>
+                <div>2 extra subscriptions.</div>
+                <div class="buy-btn">Buy</div>
+            </div>
+        </div>
+        <div class="plan-comparate plan4-comparate">
+            <div class="comparate-plan-title">Neon plan</div>
+            <div class="comparate-plan-text">
+                <div>No ads</div>
+                <div>Maximun 6 devices.</div>
+                <div>Support priority.</div>
+                <div>4 extra subscriptions.</div>
+                <div class="buy-btn">Buy</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-grande">
+        <div class="links-footer">
+            <a href="index.html">Home</a>
+            <a href="player.html">Player</a>
+            <a href="plans.html">Infinty plans</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="social">
+            <p class="social-title">Infinity premium plans</p>
+            <p>Ice plan</p>
+            <p>Desert plan</p>
+            <p>Forest plan</p>
+            <p>Neon plan</p>
+        </div>
+        <div class="newsletter">
+            <p class="social-title">Infinity values</p>
+            <p>Accesibility</p>
+            <p>Education</p>
+            <p>Environment</p>
+            <p>Racial Equity and Justice</p>
+        </div>
+    </div>
+    <div class="footer-pequeno">
+        <div class="terminos">
+            <a href="#">Privacy</a>
+            <a href="#">Policy</a>
+            <a href="#">Support</a>
+            <span>ATD&nbsp;&nbsp;&copy;&nbsp;&nbsp;2022</span>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="script3.js"></script>
+</html>
